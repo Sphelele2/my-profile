@@ -1,0 +1,58 @@
+body{
+
+background-color: #eeebdd;
+    color: #1b1717;
+    font-family: Roboto, sans-serif;
+    font-size:17px;
+    text-align:center;
+}
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif
+}
+
+h1{
+color: #810000;	
+font-weight: lighter;
+letter-spacing: 3px;
+
+}
+
+h2{
+color: #ce1212;
+     font-weight: bold;
+letter-spacing:5px;
+}
+
+a {text-decoration: none;
+color: red;
+}
+a:hover{
+	color: blue;
+}
+
+/*custom design */
+
+.container {
+width: 700px;
+margin: 40px auto}
+
+@media (max-width: 760px) {
+.container {width:600px}
+
+}
+
+@media (max-width: 500px) {
+.container {width:400px}
+
+}
+
+.card-white{
+	background: white;
+    padding: 60px;
+    margin: 30px;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
+    border-radius: 5px;
+     text-align: center;}
+
+ .images/image main.jpg{ border-radius: 50%;}    
